@@ -1,0 +1,54 @@
+//exersise 1
+const numbers = [2, 22, 12, 17, 18, 39, 129];
+
+function arraySum(arr) {
+    let sum = 0;
+    array.forEach((number) => {
+        sum += number;
+        });
+        return sum; 
+}
+console.log(arraySum(numbers));
+
+//exercise 2
+let book ={
+ title: "The Redhead of Auschwitz: A True Story "
+ author:"Nechama Birnbaum"
+ pages: 278,
+ readCount: 2,
+
+}
+//exercise 3
+let sentence = "The quick brown fox jumps over the lazy dog";
+function reverseWords(sentence){
+    let result = [];
+let words =  sentence.split("");
+for (let i = 0; i < words.length; i++){
+let letters = words{i}.split("");
+letters.reverse();
+let reverseWord = letters.join("");
+result.push(reverseWord);
+}
+return result.join("");
+}
+
+//exercise 4
+let csvData = "name,age\nFrodo,50\nSam,38\nMerry,36\nPippin,26";
+[
+let person1{
+    name: "Frodo"
+    age: 50
+},
+let person2{
+    name: "Sam"
+    age: 38
+}
+let person3{
+    name: "Merry"
+    age: 36
+}
+let person4{
+    name: "Pippin"
+    age: 26
+}
+]
